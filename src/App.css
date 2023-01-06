@@ -1,3 +1,75 @@
 .App {
-  text-align: center;
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
+#counters{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px
+}
+#break, #session{
+  text-align: center;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  color: aquamarine;
+  margin-bottom: -30px;
+}
+.count{
+  width: 150px;
+  height: 150px;
+  font-size: 4em;
+  border-radius: 50%;
+  border: 2px solid aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  top: 50px;
+  background-color: black;
+  color:aquamarine;
+  z-index: -1;
+
+}
+#container{
+}
+
+.up-down{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+  background-color: aquamarine;
+  
+}
+.up-down:hover{
+  cursor: pointer;
+  background-color: aqua;
+}
+
+#session-container{
+  width:400px;
+  height: 200px;
+  border: 3px solid aquamarine;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4em;
+  color: aquamarine;
+  justify-content: space-around;
+}
+#session-container>h2{
+  margin-top: 0px;
+}
+
+
